@@ -1,0 +1,36 @@
+body{
+    background: #000;
+    padding-left: 30px;
+    padding-top: 30px;
+  
+}
+.container{
+    background: rgb(38, 62, 107);
+    height: 400px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 4px double white;
+}
+input{
+    height: 5%;
+    width: 50%;
+    position: absolute;
+    top: 150px;
+    left:58px;
+    color:palevioletred;
+    font-size: 22px;
+    font-weight: 600;
+}
+h3{
+    padding: 50px;
+    color: white;
+    font-size: 24px;
+}
+p{
+    padding: 50px;
+    color: yellow;
+    font-size: 18px;
+    font-weight: 600;
+}

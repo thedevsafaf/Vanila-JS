@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h3>Press some keys on the Keyboard.</h3>
+        <input type="text" size="40" onkeypress="myFunction(event)">
+        <p id="demo"></p>
+    </div>
+    <script>
+        document.addEventListener("keypress", (event) => {
+            event.code == "KeyE" || event.code == "KeyQ" || event.code == "KeyU" || event.code == "KeyA" || event.code == "KeyL"
+                ? document.getElementById("demo").innerHTML = "You have clicked a letter of EQUAL "
+                : document.getElementById("demo").innerHTML = "You have not clicked any letter of EQUAL"
+        });
+    </script>
+</body>
+
+</html>

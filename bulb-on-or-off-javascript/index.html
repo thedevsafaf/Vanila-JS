@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn JavaScript</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>JavaScript Tutorials</h1>
+    <h2>Tutorial #1:  Show date and time</h2>
+    <a href="#" class="button" onclick="document.getElementById('para').innerHTML = Date()">Click to See Date and Time</a>
+    <p id="para"></p>
+    <h2>Tutorial #2:  Change HTML Content.</h2>
+    <button type="button" onclick='document.getElementById("wish_heading").innerHTML ="Hello, User"'>Click this button</button>
+    <p id="wish_heading"></p>
+    <h2>Tutorial #3:  Turn on/off Bulb (change attribute values).</h2>
+    <button onclick="document.getElementById('bulb-img').src='bulb-on.jpg'">Turn ON</button>
+    <img src="bulb-off.jpg" id="bulb-img" />
+    <button onclick="document.getElementById('bulb-img').src='bulb-off.jpg'">Turn OFF</button>
+    <h2>Tutorial #4:  Change Styles</h2>
+    <p id="size-para">This is the font which its size increased</p>
+    <button onclick="document.getElementById('size-para').style.fontSize='40px'">Click to increase the font size</button>
+</body>
+</html>

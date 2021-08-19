@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+h1,h2{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+a.button{
+    background-color: #d12a73;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    display: inline-block;
+    padding: 16px 24px;
+    margin-left: 100px;
+}
+button{
+    margin-left: 100px;
+}
+p{
+    background-color: rgb(68, 64, 64);
+    text-align: center;
+    color: aqua;
+    font-size: 26px;
+    margin: 30px 100px;
+}
+#bulb-img {
+    width: 280px;
+    margin: 15px -90px 35px 15px;
+}
+#size-para{
+    font-size: 15px;
+}
+#show-para{
+    display: none;
+}
